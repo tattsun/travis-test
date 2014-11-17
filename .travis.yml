@@ -4,7 +4,7 @@ install:
     - cabal install --enable-tests
     - cabal test
 notifications:
-    emails:
+    email:
       - t.t.mc1192.sf@gmail.com
     on_success: always
     on_failure: always
