@@ -1,3 +1,4 @@
+import           Main
 import           Test.Hspec
 
 main :: IO ()
