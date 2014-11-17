@@ -24,7 +24,6 @@ library
 test-suite tests
   type: exitcode-stdio-1.0
   main-is: Spec.hs
-  hs-source-dirs: tests
+  hs-source-dirs: tests src
   build-depends:       base
                      , hspec
-                     , travis-test
