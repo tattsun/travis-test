@@ -1,0 +1,11 @@
+language: haskell
+
+install:
+    - cabal configure --enable-tests
+    - cabal build
+    - cabal test
+notifications:
+    emails:
+      - t.t.mc1192.sf@gmail.com
+    on_success: always
+    on_failure: always
