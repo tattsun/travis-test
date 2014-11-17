@@ -1,8 +1,7 @@
 language: haskell
 
 install:
-    - cabal configure --enable-tests
-    - cabal build
+    - cabal install --enable-tests
     - cabal test
 notifications:
     emails:
